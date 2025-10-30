@@ -10,7 +10,15 @@ a {
     color: #fafafa;
 }
 
-header {
+body {
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+}
+
+.header-superior {
     background-color: #1F1717;
     display: flex;
     align-items: center;
@@ -26,4 +34,113 @@ header {
 .logo img {
     width: 100%;
     height: 100px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.section1 img {
+    border-radius: 50%;
+}
+
+.section1-text {
+    width: 350px;
+}
+
+.section2 {
+    margin: 30px;
+    display: flex;
+}
+
+.section2 {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.habilidade {
+    width: 500px;
+}
+
+.projetos {
+    display: flex;
+}
+
+.projeto {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.projetoh2 {
+    margin: 15px;
+}
+
+.projeto p {
+    color: #242424;
+    font-size: 14px;
+}
+
+.projeto h3 {
+    font-size: 18px;
+    color: #242424;
+}
+
+.projeto h4 {
+    font-size: 16px;
+}
+
+.projeto li {
+    color: #777575;
+    margin-left: 20px;
+}
+
+.projeto button {
+    width: 40%;
+    color: rgb(59, 0, 59);
+}
+
+.projeto a {
+    display: flex;
+}
+
+.projeto img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    margin: 20px;
+}
+
+main {
+    display: grid;
+    place-content: center;
+}
+
+ul {
+    margin: 35px;
+}
+
+.contato {
+    margin: 30px;
+}
+
+.contato a {
+    color: gray;
+}
+
+.message {
+    margin: 30px;
+}
+
+.nome-habilidade {
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }

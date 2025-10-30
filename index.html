@@ -6,19 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Julio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 </head>
 
 <body>
-    <header>
-        <div class="logo"><img src="/img/JC/default_765x625.png" alt=""></div>
-        <div class="header-text">
-            <a href="#">Inicio</a>
-            <a href="#">Habilidades</a>
-            <a href="#">Projetos</a>
-            <a href="#">Formação e Cursos Extracurriculares</a>
-            <a href="#">Footer</a>
+    <header class="header">
+        <div class="header-superior">
+            <div class="logo">
+                <a href="#"><img src="/img/JC/default_765x625.png" alt=""></a>
+            </div>
+            <div class="header-text">
+                <a href="#section1">Inicio</a>
+                <a href="#section2">Habilidades</a>
+                <a href="#section3">Projetos</a>
+                <a href="#section4">Formação e Cursos Extracurriculares</a>
+                <a href="#section5">Contatos</a>
+            </div>
         </div>
     </header>
+    <main>
+        <section class="section1" id="section1">
+            <img src="./img/foto-profile.jfif" alt="">
+            <div class="section1-text">
+                <h1>Olá, Eu sou Julio</h1>
+                <h3>Futuro Desenvolvedor Back-End</h3>
+                <p>Atualmente curso o Técnico em Desenvolvimento de Sistemas, onde aprendo a projetar, desenvolver e manter aplicações que resolvem problemas reais com o uso da tecnologia. Nesta página, apresento minhas habilidades em programação, banco
+                    de dados e desenvolvimento web, demonstradas por meio de projetos práticos e soluções criativas. Aqui você encontrará meus trabalhos, experiências e as principais ferramentas e linguagens que utilizo no desenvolvimento de sistemas
+                    eficientes e bem estruturados.
+                </p>
+            </div>
+        </section>
+        <section id="section2">
+            <h2>Habilidades</h2>
+            <div class="section2">
+                <div class="habilidade">
+                    <div class="nome-habilidade">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>Banco de dados</h3>
+
+                    </div>
+                    <li>MySQL</li>
+                    <li>Criação de Diagramas Conceituais e Lógicos</li>
+                    <li>Consumo de Banco de Dados</li>
+                </div>
+                <div class="habilidade">
+                    <div class="nome-habilidade">
+                        <i class="fa-solid fa-desktop"></i>
+                        <h3>Front-End</h3>
+
+                    </div>
+                    <li>Criação de Landing Page</li>
+                    <li>Criação de Website com consumo de API</li>
+                    <li>Conceitos Básicos de UI/UX</li>
+                </div>
+                <div class="habilidade">
+                    <div class="nome-habilidade">
+                        <i class="fa-solid fa-gear"></i>
+                        <h3>Back-End</h3>
+                    </div>
+                    <li>Criação de Sistemas</li>
+                    <li>Consumo e Criação de API utilizando JSON/Array</li>
+                    <li>Lógica de programação</li>
+                </div>
+                <div class="habilidade">
+                    <div class="nome-habilidade">
+                        <i class="fa-brands fa-github"></i>
+                        <h3>GitHub</h3>
+                    </div>
+                    <li>Comandos básicos de GitHub</li>
+                    <li>Deploy utilizando GitPages</li>
+                    <li>Repositório com projetos de Desenvolvimento de Sistemas</li>
+                </div>
+            </div>
+        </section>
+
+        <section id="section3">
+            <h2 class="projetoh2">Projetos</h2>
+            <div class="projetos">
+                <div class="projeto">
+                    <a href=""><img src="./img/projeto-front.png" alt=""></a>
+                    <h3>Consumo de API Pública de Super-Herói</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim quas illum soluta, aliquid repellat in sed ab velit, iure assumenda ipsum molestiae aspernatur similique eveniet ut incidunt vel inventore.</p>
+                    <h4>Ferramentas Utilizadas</h4>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScipt</li>
+                    <li>GitHub</li>
+                    <button>SAIBA MAIS</button>
+                </div>
+                <div class="projeto">
+                    <a href=""><img src="./img/back.png" alt=""></a>
+                    <h3>Criação de API simulando Whatsapp</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim quas illum soluta, aliquid repellat in sed ab velit, iure assumenda ipsum molestiae aspernatur similique eveniet ut incidunt vel inventore.</p>
+                    <h4>Ferramentas Utilizadas</h4>
+                    <li>Node.JS</li>
+                    <li>Extensões do Node</li>
+                    <li>JavaScipt</li>
+                    <li>GitHub</li>
+                    <button>SAIBA MAIS</button>
+                </div>
+            </div>
+        </section>
+        <section id="section4">
+            <h2>Formações e Cursos Extracurriculares</h2>
+            <ul>
+                <li>Desenvolvimento Front-End 120 horas (Concluído) - SENAI</li>
+                <li>Linguagem PHP 60 horas (Concluído) - SENAI</li>
+                <li>Banco de Dados MySQL 40 horas (Concluído) - SENAI</li>
+                <li>Desenvolvimento de Sistemas 1200 horas (Cursando)</li>
+            </ul>
+        </section>
+        <section id="section5">
+            <h2>Entre em Contato</h2>
+            <p class="message">Sinta-se a vontade para entrar em contato:</p>
+
+            <div class="contato"><i class="fa-solid fa-envelope"></i> <a href="#">juliocesarsantanaalves26@gmail.com</a></div>
+            <hr>
+            <div class="contato"><i class="fa-brands fa-linkedin"></i> <a href="#">LinkedIn</a></div>
+            <div class="contato"></div>
+        </section>
+    </main>
 </body>
 
 </html>
